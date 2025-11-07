@@ -1,0 +1,66 @@
+body {
+  background: black;
+}
+
+.form-container {
+  background: linear-gradient(to bottom, palegoldenrod, goldenrod 50%);
+  width: 400px;
+  margin: 30px auto;
+  border-radius: 30px;
+  padding: 35px;
+  font-family: Monospace, Arial, sans-serif;
+}
+
+label {
+  display: block;
+  margin: 15px;
+  text-align: center;
+  font-size: 24px;
+  color: darkgreen;
+}
+
+input {
+  padding: 1px;
+  display: block;
+  margin: 10px auto;
+  font-size: 24px;
+  width: 70%;
+  color: darkgreen;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  color: darkgreen;
+}
+
+textarea {
+  line-height: 1.5;
+  font-size: 16px;
+  color: darkgreen;
+  width: 70%;
+  margin: 1px;
+  padding: 1px;
+}
+
+button {
+  display: block;
+  margin: 30px auto 5px;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 13px;
+  background: palegoldenrod;
+  color: darkgreen;
+}
+
+button:hover {
+  color: olivedrab;
+  background: linear-gradient(to bottom, palegoldenrod 40%, goldenrod)
+}
+
+button:active{
+  color: white;
+  background: darkkhaki;
+}
+
+
